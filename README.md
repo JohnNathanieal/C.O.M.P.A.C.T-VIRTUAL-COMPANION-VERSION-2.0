@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 C.O.M.P.A.C.T. (Namakshar's Virtual Companion) Ver2.0
+# 🤖 C.O.M.P.A.C.T. (Namakshar's Virtual Companion) Version 2.0
 
 **Central Operation & Multi-agent Productivity Assistant for Compounded Tasks**
 *Personal AI, On Personal Devices.*
