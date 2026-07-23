@@ -1,0 +1,19 @@
+{
+  "name": "FaceProfile",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "face_description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "photo_url"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Memory",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "fact",
+        "preference",
+        "routine",
+        "project",
+        "conversation"
+      ],
+      "default": "fact"
+    },
+    "tags": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

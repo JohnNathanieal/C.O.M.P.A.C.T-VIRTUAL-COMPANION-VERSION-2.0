@@ -1,0 +1,27 @@
+{
+  "name": "AuditLog",
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string"
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success",
+        "failed",
+        "pending"
+      ],
+      "default": "success"
+    }
+  },
+  "required": [
+    "action"
+  ]
+}
